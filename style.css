@@ -72,7 +72,7 @@ body {
 .projetosPratica {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(230.65deg, #b3e374b8 27.49%, #9cc8fc 83.19%);
+  background: linear-gradient(230.65deg, #40f17b 27.49%, #fcfffc 83.19%);
   margin-top: 32px;
   padding: 32px;
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
@@ -114,6 +114,7 @@ body {
 
 }.projetos-titulo span{
   color: purple;
+  text-decoration: underline;
   list-style: none;
   font-weight: 700;
   font-size: 36px;
@@ -136,10 +137,21 @@ body {
 
 .projetos-item p {
   font-size: 18px;
+  line-height: 1.3;
 }
 
 .dark {
-  background: linear-gradient(236.85deg, #375886 27.26%, #6887a9 96.03%);
+  background: linear-gradient(236.85deg, #135dc5 27.26%, #04101d 96.03%);
+}
+
+.dark .projetosPratica {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #004e1aec 27.49%, #000701 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
 }
 
 .dark .container {
@@ -159,22 +171,27 @@ body {
 .projetos-js {
   display: flex;
   align-items: center;
-  width: 200px;
-  height: 160px;
+  justify-content: center;
+  padding: 0 auto;
+  margin: 0 auto;
+  width: 20em;
+  height: 15em;
   cursor: pointer;
   border-radius: 25px;
   
 }
-.projetos-js:hover {
+/*(.projetos-js:hover {
   scale: 0.8;
   transition: 1ms;
   border: 10px solid rgb(255, 51, 51);
   border-radius: 25px;
   
-}
+}*/
 
 .projetos-item h2 {
-  color: red;
+  color: rgb(255, 94, 0);
+  text-align: center;
+  text-decoration: underline;
   font-family: 'Roboto';
   
 }
